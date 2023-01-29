@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    background-color: #C2DED1;
+
+}
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+.info {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+    flex-direction: row;
+}
+.box {
+box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+margin-right: 15px;
+width: auto;
+height: 433px;
+}
+
+@media (max-width: 650px) {
+    .info {
+        flex-direction: column;
+    }
+    .box {
+        height: 215px;
+    }
+}
+.text {
+    /* margin-bottom: 10px; */
+    padding: 19px;
+    padding-top: 5px;
+    padding-bottom: 27px;
+}
+
+
+
+h1 {
+    color: #354259;
+}
+
+p {
+color: #354259;
+
+
+
+}
+
+h3 {
+    background-color: #CDC2AE;
+    color: #354259;
+    border-radius: 9px;
+    padding: 10px;
+}
+
+ol {
+
+    color: #354259
+}
+
+table {
+
+    color: #354259
+}
+
+.card {
+    border: 2px solid #354259;
+    border-radius: 15px;
+    margin-bottom: 3px;
+}
+
+.red {
+    background: #ECE5C7;
+}
+
+.green {
+    background: #ECE5C7;
+}
+
+.blue {
+    background: #ECE5C7;
+}
+
+.btn {
+    background: #354259;
+    padding: 10px 15px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    font-family: inherit;
+    text-decoration: none;
+    /* padding-bottom: 12px; */
+}
+
+.btn:hover {
+    opacity: 0.8;
+    color: rgb(170, 209, 143);
+}
+.btn:active {
+    color: rgb(141, 238, 77);
+}
+/* .btn:visited {
+    color: rgb(144, 116, 142);
+} */
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.list li {
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #354259;
+    padding-left: 12px;
+    
+}
+
+.table {
+    width: 100%;
+}
+.table td {
+    text-align: left;
+    padding-bottom: 5px;
+}
+.table th:nth-child(n) {
+    background: #CDC2AE;
+    border-radius: 9px;
+}
+
+.form {
+white-space: nowrap;
+}
+.form label {
+    color: #354259;
+   display: block;
+}
+
+.form .input_block {
+    width: 50%;
+    display: inline-block;
+}
+
+.form input {
+    display: block;
+background: #C2DED1;
+border: none;
+border-bottom: 1px solid #354259;
+padding: 5px;
+width: 95%;
+outline: none;
+}
+
+.form textarea {
+    background: #C2DED1;
+    border: none;
+    border-bottom: 1px solid #354259;
+    padding: 5px;
+    width: 100%;
+    outline: none;
+}
